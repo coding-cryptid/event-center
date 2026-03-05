@@ -1,0 +1,29 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+}
+
+h1,
+i {
+    color: rgb(3, 42, 3);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .leftSide h2 a {
+    color: rgb(3, 42, 3);
+    text-decoration: none;
+    text-align: center;
+}
+
+nav .leftSide h2 a span {
+    display: block;
+    font-size: 1rem;
+}
