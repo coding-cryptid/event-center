@@ -103,12 +103,16 @@ main section {
     padding: 30px 60px;
 }
 
+main .diningIntro {
+    background-color: rgb(143, 179, 143);
+}
+
 main .col50 {
     width: 50%;
 }
 
 main .col50 .textContainer {
-    align-items: flex-start;
+    display: flex;
 }
 
 main h2 {
@@ -119,6 +123,7 @@ main h2 {
 
 main p {
     font-size: 18px;
+    margin-bottom: 25px;
 }
 
 main .col50 .imgContainer {
@@ -129,6 +134,27 @@ main .imgContainer img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+/* Button Styles */
+
+.button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(3, 42, 3);
+    border: 3px solid rgb(3, 42, 3);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    width: 145px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgb(3, 42, 3);
+    color: white;
+    box-shadow: 4px 6px 0px black;
 }
 
 /* Footer styles */
