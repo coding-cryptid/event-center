@@ -97,13 +97,18 @@ main .intro {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 40px;
+    height: 400px;
+    overflow: hidden;
+    padding: 30px 60px;
 }
 
 main .intro .col50 {
     width: 50%;
-    padding: 30px 60px;
+}
+
+main .intro .col50 .textContainer {
+    align-items: flex-start;
 }
 
 main .intro h2 {
@@ -117,11 +122,13 @@ main .intro p {
 }
 
 main .intro .col50 .imgContainer {
-    width: 40px;
+    height: 90%;
 }
 
-main .into .imgContainer img {
-    width: 50%;
+main .intro .imgContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Footer styles */
