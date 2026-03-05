@@ -157,7 +157,7 @@ main .imgContainer img {
     box-shadow: 4px 6px 0px black;
 }
 
-/* Contact Styles */
+/* Contact Section Style */
 
 .contact {
     display: flex;
@@ -166,6 +166,39 @@ main .imgContainer img {
     align-items: center;
     margin-top: 30px;
 }
+
+/* Book an Event Styles */
+
+.booking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.booking h3 {
+    font-size: 1.5rem;
+}
+
+.booking p {
+    font-size: 1rem;
+    margin: 40px 0 10px 0;
+}
+
+.booking .btnArea input {
+    margin: 40px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color:rgb(3, 42, 3);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+/* Forms Styles */
 
 .contact form {
     border: 1px solid rgb(3, 42, 3);
@@ -184,15 +217,30 @@ main .imgContainer img {
     height: 80px;
 }
 
-.contact .inputBox input,
-.contact .inputBox textarea {
+.booking form {
+    margin: 40px 60px;
+    text-align: center;
+}
+
+.booking .inputBox {
+    width: 500px;
+    height: 40px;
+    margin: 15px;
+}
+
+.booking .textArea {
+    height: 90px;
+}
+
+.inputBox input,
+.inputBox textarea {
     width: 100%;
     height: 100%;
     resize: none;
     padding: 10px;
 }
 
-.contact .btnArea input {
+.btnArea input {
     padding: 10px 20px;
     font-size: 1rem;
     background-color:rgb(3, 42, 3);
