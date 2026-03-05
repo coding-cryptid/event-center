@@ -93,7 +93,7 @@ main {
     margin-bottom: 40px;
 }
 
-main .intro {
+main section {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -103,7 +103,7 @@ main .intro {
     padding: 30px 60px;
 }
 
-main .intro .col50 {
+main .col50 {
     width: 50%;
 }
 
