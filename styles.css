@@ -9,12 +9,6 @@ i {
     color: rgb(3, 42, 3);
 }
 
-.btn {
-    text-decoration: none;
-    background-color:rgb(3, 42, 3);
-    color: white;
-}
-
 /* Navigation Styles */
 
 nav {
@@ -27,6 +21,12 @@ nav {
     background-color: white;
     position: sticky;
     top: 0;
+}
+
+.btn {
+    text-decoration: none;
+    background-color:rgb(3, 42, 3);
+    color: white;
 }
 
 nav .leftSide h2 a {
@@ -115,9 +115,9 @@ main .col50 .textContainer {
     display: flex;
 }
 
-main h2 {
+.cardTitle {
     color: rgb(3, 42, 3);
-    margin-bottom: 15px;
+    margin: 15px 0px;
     font-size: 2.5rem;
 }
 
@@ -157,9 +157,55 @@ main .imgContainer img {
     box-shadow: 4px 6px 0px black;
 }
 
-/* Footer styles */
+/* Contact Styles */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact form {
+    border: 1px solid rgb(3, 42, 3);
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+}
+
+.contact .inputBox {
+    width: 300px;
+    height: 40px;
+    margin: 15px;
+}
+
+.contact .textArea {
+    height: 80px;
+}
+
+.contact .inputBox input,
+.contact .inputBox textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px;
+}
+
+.contact .btnArea input {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color:rgb(3, 42, 3);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Styles */
 
 footer {
+    margin-top: 40px;
     width: 100%;
     height: 70px;
     display: flex;
