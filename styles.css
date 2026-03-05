@@ -25,6 +25,9 @@ nav {
     align-items: center;
     height: 70px;
     padding: 50px 20px;
+    background-color: white;
+    position: sticky;
+    top: 1;
 }
 
 nav .leftSide h2 a {
