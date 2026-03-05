@@ -10,6 +10,8 @@ i {
     color: rgb(3, 42, 3);
 }
 
+/* Navigation Styles */
+
 nav {
     display: flex;
     flex-direction: row;
@@ -26,4 +28,20 @@ nav .leftSide h2 a {
 nav .leftSide h2 a span {
     display: block;
     font-size: 1rem;
+}
+
+nav .middleSection ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+nav .middleSection ul li {
+    list-style: none;
+}
+
+nav .middleSection ul li a {
+    text-decoration: none;
+    color:rgb(3, 42, 3);
+    font-weight: 500;
 }
