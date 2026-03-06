@@ -169,7 +169,8 @@ main .imgContainer img {
 
 /* Book an Event Styles */
 
-.booking {
+.booking,
+.about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,24 +253,11 @@ main .imgContainer img {
 
 /* About Styles */
 
-.about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.about .cardTitle {
-    text-align: center;
-}
-
-.about .partOne {
-    flex-direction: column;
-}
-
+.about .partOne,
 .about .partTwo {
+    text-align: left;
     flex-direction: column;
 }
-
 
 /* Footer Styles */
 
