@@ -250,6 +250,27 @@ main .imgContainer img {
     cursor: pointer;
 }
 
+/* About Styles */
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .cardTitle {
+    text-align: center;
+}
+
+.about .partOne {
+    flex-direction: column;
+}
+
+.about .partTwo {
+    flex-direction: column;
+}
+
+
 /* Footer Styles */
 
 footer {
