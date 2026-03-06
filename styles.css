@@ -257,6 +257,21 @@ main .imgContainer img {
 .about .partTwo {
     text-align: left;
     flex-direction: column;
+    height: 100%;
+}
+
+.about .partTwo .imgContainer {
+    margin: 20px 15px;
+}
+
+.about .partTwo .imgContainer img {
+    height: 550px;
+}
+
+.about .partOne .textContainer,
+.about .partTwo .textContainer {
+    margin: 60px 15px;
+
 }
 
 /* Footer Styles */
