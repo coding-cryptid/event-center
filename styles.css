@@ -355,7 +355,7 @@ table .row {
     height: 100%;
 }
 
-table .row .cell {
+table .cell {
     padding: 7px;
     padding-right: 50px;
     text-align: left;
@@ -370,7 +370,12 @@ table .row td {
     font-size: 1rem;
 }
 
-table .paragraph .cell {
+table .rowParagraph .cell {
+    font-size: 0.8rem;
+    padding-right: 20px;
+}
+
+table .rowLink .cell {
     font-size: 0.8rem;
     padding-right: 20px;
 }
