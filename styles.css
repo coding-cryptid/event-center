@@ -399,10 +399,26 @@ table .rowLink .cell {
 
 .dining {
     background-color: rgb(189, 215, 189);
+    display: flex;
+    flex-direction: column;
 }
 
-.dining .textContainer {
+.dining .start {
     margin: 20px 0;
+    text-align: left;
+    max-width: 900px;
+    height: 100%;
+    gap: 80px;
+}
+
+.dining .col50 {
+    width: 50%;
+    height: 100%;
+}
+
+.dining .gifContainer iframe {
+    border: none;
+    overflow: hidden;
 }
 
 .cards {
