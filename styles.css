@@ -404,6 +404,17 @@ table .rowLink .cell {
     padding-right: 20px;
 }
 
+table .rowLink .cell a {
+    text-decoration: none;
+    color: rgb(3, 42, 3);
+    font-weight: 500;
+}
+
+table .rowLink .cell a:hover,
+table .rowLink .cell a:focus {
+    color: rgb(143, 179, 143);
+}
+
 /* Dining/Catering */
 
 .dining {
