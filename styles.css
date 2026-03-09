@@ -347,6 +347,13 @@ main .imgContainer img {
     font-size: 20px;
 }
 
+.backToTop {
+    text-decoration: none;
+    color: rgb(3, 42, 3);
+    font-weight: 700;
+    margin: 20px;
+}
+
 /* Events Styles */
 
 main .tableContainer {
