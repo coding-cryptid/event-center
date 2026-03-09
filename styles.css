@@ -358,7 +358,8 @@ table {
     display: flex;
     flex-direction: column;
     border: 2px solid black;
-    width: 100%;
+    width: fit-content;
+    padding: 20px;
     height: 240px;
     align-items: center;
     justify-content: center;
