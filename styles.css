@@ -288,6 +288,7 @@ main .imgContainer img {
 .about .partTwo h3,
 .about .partThree h3 {
     font-size: 1.7rem;
+    color: rgb(3, 42, 3);
 }
 
 .about .partTwo .imgContainer {
