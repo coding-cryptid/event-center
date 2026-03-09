@@ -339,12 +339,19 @@ main .imgContainer img {
 .sidebar a {
     text-decoration: none;
     color: black;
+    font-weight: 500;
     margin: 20px 0;
+}
+
+.sidebar a:hover,
+.sidebar a:focus {
+    color: rgb(3, 42, 3);
 }
 
 .sidebar h5 {
     margin-top: 15px;
     font-size: 20px;
+    color: rgb(3, 42, 3);
 }
 
 .backToTop {
