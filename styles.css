@@ -296,6 +296,7 @@ main .imgContainer img {
 
 .about .partTwo ol {
     margin: 20px;
+    font-size: 18px;
 }
 
 .about .partOne h3,
@@ -333,10 +334,11 @@ main .imgContainer img {
     text-align: left;
     font-size: 14px;
     width: 150px;
+    gap: 20px;
     background-color: rgb(189, 215, 189);
 }
 
-.sidebar a {
+.sidebar .linkCont a {
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -533,146 +535,216 @@ footer {
         font-size: 0.8rem;
         padding: 5px 10px;
     }
-}
 
+    /* Main Styles */
 
-/* Main Styles */
-main {
-    display: flex;
-    flex-direction: column;
-}
+    main {
+        display: flex;
+        flex-direction: column;
+    }
 
-.hero {
-    height: 400px;
-    display: flex;
-}
+    .hero {
+        height: 400px;
+        display: flex;
+    }
 
-.hero h1 {
-    color: white;
-    font-size: 3rem;
-    margin: 40px;
-}
+    .hero h1 {
+        color: white;
+        font-size: 3rem;
+        margin: 40px;
+    }
 
-main section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    height: 100%;
-    overflow: hidden;
-    padding: 20px 20px;
-    flex-direction: column;
-}
+    main section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        height: 100%;
+        overflow: hidden;
+        padding: 20px 20px;
+        flex-direction: column;
+    }
 
-main .diningIntro {
-    background-color: rgb(143, 179, 143);
-    flex-direction: column-reverse;
-}
+    main .diningIntro {
+        background-color: rgb(143, 179, 143);
+        flex-direction: column-reverse;
+    }
 
-main .col50 {
-    width: 100%;
-}
+    main .col50 {
+        width: 100%;
+    }
 
-.cardTitle {
-    color: rgb(3, 42, 3);
-    margin: 10px 0px;
-    font-size: 1.7rem;
-}
+    .cardTitle {
+        color: rgb(3, 42, 3);
+        margin: 10px 0px;
+        font-size: 1.5rem;
+    }
 
-main p {
-    font-size: 13px;
-    margin-bottom: 10px;
-}
+    main p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
 
-main .imgContainer img {
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
-}
+    main .imgContainer img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
 
-/* Button Styles */
+    /* Button Styles */
 
-.button {
-    padding: 5px 10px;
-    border: 2px solid rgb(3, 42, 3);
-    font-size: 0.8rem;
-    font-weight: 600;
-    text-decoration: none;
-    display: block;
-    width: 100px;
-}
+    .button {
+        padding: 5px 10px;
+        border: 2px solid rgb(3, 42, 3);
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-decoration: none;
+        display: block;
+        width: 80px;
+        margin-top: 20px;
+    }
 
-/* Contact Section Style */
+    /* Contact Section Style */
 
-.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-}
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
 
-/* Book an Event Styles */
+    /* Book an Event Styles */
 
-.booking h3 {
-    font-size: 1.5rem;
-}
+    .booking h3 {
+        font-size: 1rem;
+        margin-bottom: 40px;
+    }
 
-.booking p {
-    font-size: 1rem;
-    margin: 40px 0 10px 0;
-}
+    .booking p {
+        font-size: 1rem;
+        margin: 40px 0 10px 0;
+    }
 
-.booking .btnArea input {
-    margin: 40px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color:rgb(3, 42, 3);
-    color: white;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-}
+    .booking .btnArea input {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
 
-/* Forms Styles */
+    /* Forms Styles */
 
-.contact form {
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-}
+    .contact form {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
 
-.contact .inputBox {
-    width: 200px;
-    height: 40px;
-    margin: 15px;
-}
+    .contact .inputBox {
+        width: 200px;
+        height: 40px;
+        margin: 15px;
+    }
 
-.contact .textArea {
-    height: 50px;
-}
+    .contact .textArea {
+        height: 50px;
+    }
 
-.booking form {
-    margin: 40px 60px;
-    text-align: center;
-}
+    .booking form {
+        margin: 5px 10px;
+    }
 
-.booking .inputBox {
-    width: 500px;
-    height: 40px;
-    margin: 15px;
-}
+    .booking .inputBox {
+        width: 300px;
+        height: 30px;
+        margin: 10px;
+    }
 
-.booking .textArea {
-    height: 90px;
-}
+    .booking .textArea {
+        height: 50px;
+    }
 
-.inputBox input,
-.inputBox textarea {
-    padding: 5px;
-}
+    .inputBox input,
+    .inputBox textarea {
+        padding: 5px;
+    }
 
-.btnArea input {
-    padding: 5px 10px;
-    font-size: 0.7rem;
+    .btnArea input {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
+
+    /* About Styles */
+
+    .about .partOne,
+    .about .partTwo,
+    .about .partThree {
+        width: 100%;
+    }
+
+    .about .partOne h3,
+    .about .partTwo h3,
+    .about .partThree h3 {
+        font-size: 1rem;
+        color: rgb(3, 42, 3);
+    }
+
+    .about .partTwo ol {
+        font-size: 0.8rem;
+    }
+
+    .about .partTwo .imgContainer {
+        margin: 15px 10px;
+    }
+
+    .about .partTwo .imgContainer img {
+        height: 350px;
+    }
+
+    .about .partOne .textContainer,
+    .about .partTwo .textContainer,
+    .about .partThree .textContainer {
+        margin: 0px 15px;
+
+    }
+
+    .col2Container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+        background-color: rgb(189, 215, 189);
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .sidebar h5 {
+        margin-top: 0px;
+        font-size: 1rem;
+    }
+
+    .backToTop {
+        font-size: 0.8rem;
+    }
+
+    /* Footer Styles */
+
+    footer {
+        height: 40px;
+        font-size: 13px;
+    }
 }
