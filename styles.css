@@ -491,15 +491,16 @@ footer {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 844px) {
     
     /* Navigation Styles */
     nav {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         align-items: center;
         height: 70px;
-        padding: 15px 10px;
+        padding: 10px 10px;
     }
 
     nav .leftSide h2 a {
@@ -512,7 +513,7 @@ footer {
 
     nav .middleSection ul {
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 20px;
     }
 
     nav .middleSection ul li a {
