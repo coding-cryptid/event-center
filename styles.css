@@ -493,4 +493,42 @@ footer {
 
 @media screen and (max-width: 800px) {
     
+    /* Navigation Styles */
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 70px;
+        padding: 15px 10px;
+    }
+
+    nav .leftSide h2 a {
+        font-size: 1rem;
+    }
+
+    nav .leftSide h2 a span {
+        font-size: 0.7rem;
+    }
+
+    nav .middleSection ul {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    nav .middleSection ul li a {
+        font-weight: 600;
+        font-size: 0.8rem;
+        border-bottom: 2px solid white;
+    }
+
+    nav .middleSection ul li a:hover,
+    nav .middleSection ul li a:focus {
+        border-bottom: 2px solid rgb(3, 42, 3);
+    }
+
+    nav .rightSide .btn {
+        font-weight: 500;
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
 }
