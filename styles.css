@@ -34,7 +34,6 @@ body {
 .dining .cardTitle {
     text-align: center;
     margin-top: 40px;
-
 }
 
 /* Navigation Styles */
@@ -366,62 +365,38 @@ main .imgContainer img {
 
 /* Events Styles */
 
-main .tableContainer {
-    justify-content: center;
+.events {
+    display: flex;
+    justify-content: start;
     align-items: center;
 }
 
 table {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid black;
-    width: fit-content;
-    padding: 20px;
-    height: 240px;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
+    display: inline-block;
+    margin-top: 50px;
 }
 
-table .row {
-    width: 100%;
-    height: 100%;
-}
-
-table .cell {
-    padding: 7px;
-    padding-right: 50px;
-    text-align: left;
-
-}
-
-table .row th {
+table thead th {
     font-size: 1.3rem;
     color: rgb(3, 42, 3);
+    text-align: left;
+    padding-right: 50px;
 }
 
-table .row td {
-    font-size: 1rem;
-}
-
-table .rowParagraph .cell {
+table tbody td {
     font-size: 0.8rem;
-    padding-right: 20px;
+    text-align: left;
+    padding-right: 50px;
 }
 
-table .rowLink .cell {
-    font-size: 0.8rem;
-    padding-right: 20px;
-}
-
-table .rowLink .cell a {
+table a {
     text-decoration: none;
     color: rgb(3, 42, 3);
     font-weight: 500;
 }
 
-table .rowLink .cell a:hover,
-table .rowLink .cell a:focus {
+table a:hover,
+table a:focus {
     color: rgb(143, 179, 143);
 }
 
@@ -782,6 +757,10 @@ footer {
         height: 100%;
         object-fit: cover;
     }
+
+    /* Events Styles */
+
+    
 
     /* Footer Styles */
 
