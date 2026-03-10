@@ -500,6 +500,7 @@ footer {
         align-items: left;
         justify-content: space-evenly;
         height: 110px;
+        width: 100%;
         padding: 0px 5px;
     }
 
@@ -542,66 +543,136 @@ main {
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.478), rgba(0, 0, 0, 0.478)), url(https://images.pexels.com/photos/30391786/pexels-photo-30391786.jpeg?_gl=1*t7lim*_ga*OTEyMDA2NjMwLjE3NzIxMjg4MzA.*_ga_8JE65Q40S6*czE3NzI3Mjc2OTUkbzckZzEkdDE3NzI3MjgwNjYkajEkbDAkaDA.);
-    background-size: cover;
-    width: 100%;
-    height: 600px;
+    height: 400px;
     display: flex;
-    justify-content: center;
-    align-items: end;
 }
 
 .hero h1 {
     color: white;
-    font-size: 4rem;
-    margin-bottom: 40px;
+    font-size: 3rem;
+    margin: 40px;
 }
 
 main section {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 40px;
-    height: 450px;
+    gap: 30px;
+    height: 100%;
     overflow: hidden;
-    padding: 30px 60px;
+    padding: 20px 20px;
+    flex-direction: column;
 }
 
 main .diningIntro {
     background-color: rgb(143, 179, 143);
-}
-
-main .diningIntro ul {
-    margin: 20px;
+    flex-direction: column-reverse;
 }
 
 main .col50 {
-    width: 50%;
-}
-
-main .col50 .textContainer {
-    display: flex;
+    width: 100%;
 }
 
 .cardTitle {
     color: rgb(3, 42, 3);
-    margin: 15px 0px;
-    font-size: 2.5rem;
+    margin: 10px 0px;
+    font-size: 1.7rem;
 }
 
 main p {
-    font-size: 18px;
-    margin-bottom: 25px;
-}
-
-main .col50 .imgContainer {
-    height: fit-content;
-    width: 100%;
-    overflow: hidden;
+    font-size: 13px;
+    margin-bottom: 10px;
 }
 
 main .imgContainer img {
-    height: 100%;
+    height: 200px;
     width: 100%;
     object-fit: cover;
+}
+
+/* Button Styles */
+
+.button {
+    padding: 5px 10px;
+    border: 2px solid rgb(3, 42, 3);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+}
+
+/* Contact Section Style */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Book an Event Styles */
+
+.booking h3 {
+    font-size: 1.5rem;
+}
+
+.booking p {
+    font-size: 1rem;
+    margin: 40px 0 10px 0;
+}
+
+.booking .btnArea input {
+    margin: 40px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color:rgb(3, 42, 3);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+/* Forms Styles */
+
+.contact form {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.contact .inputBox {
+    width: 200px;
+    height: 40px;
+    margin: 15px;
+}
+
+.contact .textArea {
+    height: 50px;
+}
+
+.booking form {
+    margin: 40px 60px;
+    text-align: center;
+}
+
+.booking .inputBox {
+    width: 500px;
+    height: 40px;
+    margin: 15px;
+}
+
+.booking .textArea {
+    height: 90px;
+}
+
+.inputBox input,
+.inputBox textarea {
+    padding: 5px;
+}
+
+.btnArea input {
+    padding: 5px 10px;
+    font-size: 0.7rem;
 }
