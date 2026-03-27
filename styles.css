@@ -405,8 +405,9 @@ table a:focus {
 
 .tableContainer {
     overflow-x: auto;
-    width: 100%;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Dining/Catering */
