@@ -374,6 +374,9 @@ main .imgContainer img {
 table {
     display: inline-block;
     margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px;
 }
 
 table thead th {
@@ -400,6 +403,12 @@ table a:focus {
     color: rgb(143, 179, 143);
 }
 
+.tableContainer {
+    overflow-x: auto;
+    width: 100%;
+
+}
+
 /* Dining/Catering */
 
 .dining {
@@ -418,12 +427,15 @@ table a:focus {
 
 .dining .col50 {
     width: 50%;
-    height: 100%;
+    height: 50%;
 }
 
-.dining .gifContainer iframe {
+.dining .gifContainer img {
     border: none;
     overflow: hidden;
+    height: 50%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .cards {
@@ -454,6 +466,7 @@ table a:focus {
     height: 50%;
     object-fit: cover;
 }
+
 
 /* Footer Styles */
 
@@ -760,7 +773,58 @@ footer {
 
     /* Events Styles */
 
-    
+    .tableContainer {
+        width: 100%;
+        overflow-x: auto;
+    }
+    table {
+        min-width: unset;
+        width: 100%;
+        font-size: 0.8rem;
+        display: block;
+    }
+    thead {
+        display: none;
+    }
+    tbody, tr {
+        display: block;
+        width: 100%;
+    }
+    td.cell {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 10px 10px 40%;
+        position: relative;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 40px;
+        text-align: left;
+        font-size: 1rem;
+        margin-top: 18px;
+    }
+    td.cell:last-child {
+        border-bottom: 2px solid rgb(3, 42, 3);
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+    }
+    td.cell:before {
+        content: attr(data-label) ": ";
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        width: 35%;
+        font-weight: bold;
+        color: rgb(3, 42, 3);
+        white-space: normal;
+        text-align: left;
+        display: inline;
+    }
+    tr {
+        margin-bottom: 20px;
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    }
 
     /* Footer Styles */
 
